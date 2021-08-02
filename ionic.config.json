@@ -1,0 +1,7 @@
+{
+  "name": "MAFATS",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
