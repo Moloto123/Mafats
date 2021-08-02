@@ -1,0 +1,135 @@
+ion-content{
+  --ion-background-color:#fff;
+  font-family: 'Proxima Nova';
+  --overflow: hidden;
+
+}
+
+
+
+
+
+.background-container{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  background: url('../../../assets/images/welcome.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 7rem;
+
+
+}
+
+
+ion-card{
+  text-align: center;
+  background: transparent;
+  box-shadow: none;
+
+
+  img{
+      margin-top: 110px;
+      height: 7rem;
+      width: 7.2rem;
+  }
+  ion-card-title{
+      font-size: 20px;
+      color: #D2EDDD;
+      font-weight: 500;
+
+  }
+
+
+  ion-card-content{
+   margin-top: 10px;
+
+   ion-button{
+       width: 180px;
+       height: 60px;
+       --border-radius: 40px;
+       --background: #275C3C;
+       color:#fff;
+       font-weight: 400;
+       text-transform: none;
+       font-size: 20px;
+       margin-right: 15px;
+   }
+  }
+ }
+
+
+
+.btn {
+  margin-right: 15px;
+
+}
+
+
+
+
+
+.grid-container{
+  padding-top: 330px;
+
+
+
+}
+
+h2{
+  font-size: 30px;
+  font-weight: bold;
+  outline-offset: 15px;
+
+}
+p {
+  line-height: 1.8;
+  outline-offset: 15px;
+  text-align: justify;
+text-justify: inter-word;
+}
+
+
+
+.logo{
+  border-radius: 50%;
+  width: 150px !important;
+height: 150px !important;
+  border: 6px solid;
+  border-color: rgb(7, 65, 7);
+}
+
+
+
+
+
+
+@media screen and (min-width:500px){
+
+
+.background-container{
+  height: 100%vh;
+  width: 100%;
+  display: flex;
+  background: url('../../../assets/images/welcome.jpg');
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  background-position: 50%;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 9rem;
+
+}
+img{
+  margin-top: 110px;
+  height: 7rem;
+  width: 7.2rem;
+}
+
+
+  }
+
